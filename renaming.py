@@ -13,3 +13,6 @@ for i, filename in enumerate(image_filenames, start=1):
         os.rename(old_path, new_path)
     else:
         print(f"Skipped renaming {old_path} because {new_path} already exists.")
+
+
+#n01664065_312.jpg
